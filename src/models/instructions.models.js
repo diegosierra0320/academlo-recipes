@@ -9,12 +9,12 @@ const Instructions = db.define('intructions', {
         primaryKey: true,
         allowNull: false
     },
-    description: {
-        type: DataTypes.TEXT,
-        allowNull: false
-    },
     step: {
         type: DataTypes.INTEGER,
+        allowNull: false
+    },
+    description: {
+        type: DataTypes.TEXT,
         allowNull: false
     },
     recipeId: {
